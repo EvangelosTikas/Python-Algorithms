@@ -1,0 +1,16 @@
+#Find reversed integer
+#example by givving 123 it will return 321
+class Solution(object):
+    def reverse(self, x):
+        """
+        :type x: int
+        :rtype: int
+        """
+        rev = 0
+        for digits in \
+                reversed(str(abs(x))) :
+            print(digits)
+
+x = input("Enter a number:")
+s1=Solution()
+s1.reverse(int(x))
