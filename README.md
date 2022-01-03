@@ -15,4 +15,4 @@ We test whether or not a random array of characters from the english alphabet is
 First we define a function that generates a sequence of random characters from a to b including space. Secondly we create a function for printing the number of elements that are
 identical between two strings. Last but not least a main() function runs to indicate whether our program can generate a sequence close to a given string.
 
->> Example given: "me thinks it is like a wiesel"     (line from Shakespear)
+>> Example given: goalstring ='methinks it is a wiesel'    (line from Shakespear)
