@@ -16,7 +16,8 @@ predicted = model.predict(dataset.data)
 print(metrics.classification_report(expected, predicted))
 print(metrics.confusion_matrix(expected, predicted))
 
-from sklearn import datasets
+# Gaussian Naives-Bayes
+
 from sklearn import metrics
 from sklearn.naive_bayes import GaussianNB
 # load the iris datasets
@@ -34,7 +35,7 @@ print(metrics.confusion_matrix(expected, predicted))
 
 #nearest NeighborPython
 # k-Nearest Neighbor
-from sklearn import datasets
+
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
 # load iris the datasets
