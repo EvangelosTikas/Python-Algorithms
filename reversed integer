@@ -7,8 +7,7 @@ class Solution(object):
         :rtype: int
         """
         rev = 0
-        for digits in \
-                reversed(str(abs(x))) :
+        for digits in reversed(str(abs(x))) :
             print(digits)
 
 x = input("Enter a number:")
